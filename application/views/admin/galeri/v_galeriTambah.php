@@ -24,11 +24,6 @@
                     </div>
 
                     <div class="input-group input-group-outline mb-3">
-                        <input type="text" class="form-control" id="galeri_keterangan" name="galeri_keterangan" placeholder="Keterangan Galeri">
-                        <?= form_error('galeri_keterangan', '<small class="text-danger pl-3 row col-lg-12">', '</small>'); ?>
-                    </div>
-
-                    <div class="input-group input-group-outline mb-3">
                         <input type="date" class="form-control" id="galeri_upload" name="galeri_upload" placeholder="Waktu Upload">
                         <?= form_error('galeri_upload', '<small class="text-danger pl-3 row col-lg-12">', '</small>'); ?>
                     </div>

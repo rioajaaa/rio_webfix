@@ -52,20 +52,37 @@
 
         <div class="collapse navbar-collapse w-auto" id="sidenav-collapse-main">
             <ul class="navbar-nav">
+
+            <li class="nav-item mt-3">
+                    <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">
+                        Feature
+                    </h6>
+                </li>
+
+            <li class="nav-item">
+                    <a class="nav-link collapsed" href="<?= base_url('Galeri') ?>">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">image</i>
+                        </div>
+
+                        <span class="nav-link-text ms-1">Galeri</span>
+                    </a>
+                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="<?= base_url('Guru') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">dashboard</i>
+                            <i class="material-icons opacity-10">group</i>
                         </div>
 
                         <span class="nav-link-text ms-1">Guru</span>
                     </a>
                 </li>
-
+                
                 <li class="nav-item">
                     <a class="nav-link text-white" href="./tables.html">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">table_view</i>
+                            <i class="material-icons opacity-10">newspaper</i>
                         </div>
 
                         <span class="nav-link-text ms-1">Berita</span>
@@ -75,20 +92,10 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="./billing.html">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">receipt_long</i>
+                            <i class="material-icons opacity-10">info</i>
                         </div>
 
                         <span class="nav-link-text ms-1">Pengumuman</span>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link collapsed" href="<?= base_url('Galeri') ?>">
-                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                            <i class="material-icons opacity-10">view_in_ar</i>
-                        </div>
-
-                        <span class="nav-link-text ms-1">Gallery</span>
                     </a>
                 </li>
 
@@ -114,7 +121,7 @@
 
                 <li class="nav-item mt-3">
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">
-                        Account pages
+                        Account
                     </h6>
                 </li>
 

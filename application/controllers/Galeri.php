@@ -28,9 +28,6 @@ class Galeri extends CI_Controller
     $this->form_validation->set_rules('galeri_judul','Judul Galeri','required',[
       'required'=>'Data Harus Diisi'
     ]);
-    $this->form_validation->set_rules('galeri_keterangan','Keterangan Galeri','required',[
-      'required'=>'Data Harus Diisi'
-    ]);
     $this->form_validation->set_rules('galeri_upload','Waktu Upload','required',[
       'required'=>'Data Harus Diisi'
     ]);
@@ -41,7 +38,6 @@ class Galeri extends CI_Controller
     } else {
       $data = [
         'galeri_judul' => $this->input->post('galeri_judul'),
-        'galeri_keterangan' => $this->input->post('galeri_keterangan'),
         'galeri_upload' => $this->input->post('galeri_upload'),
         'foto' => $this->input->post('foto'),
       ];
@@ -66,9 +62,6 @@ class Galeri extends CI_Controller
     $this->form_validation->set_rules('galeri_judul','Judul Galeri','required',[
       'required'=>'Data Harus Diisi'
     ]);
-    $this->form_validation->set_rules('galeri_keterangan','Keterangan Galeri','required',[
-      'required'=>'Data Harus Diisi'
-    ]);
     $this->form_validation->set_rules('galeri_upload','Waktu Upload','required',[
       'required'=>'Data Harus Diisi'
     ]);
@@ -79,7 +72,6 @@ class Galeri extends CI_Controller
     } else {
       $data = [
         'galeri_judul' => $this->input->post('galeri_judul'),
-        'galeri_keterangan' => $this->input->post('galeri_keterangan'),
         'galeri_upload' => $this->input->post('galeri_upload'),
         'foto' => $this->input->post('foto'),
       ];

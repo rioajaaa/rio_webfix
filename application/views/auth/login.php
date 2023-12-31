@@ -60,7 +60,11 @@
 
 <style>
     .bg-gradient-primary {
-        background-image: linear-gradient(195deg, #5D9C59 0%, #5D9C59 100%);
+        background-image: linear-gradient(195deg, #B1D7B4 0%, #5D9C59 100%);
+    }
+
+    .bg-gradient-secondary {
+        background-image: linear-gradient(195deg, #747b8a 0%, #5D9C59 100%);
     }
 </style>
 
@@ -115,7 +119,7 @@
                                     <label class="form-check-label mb-0 ms-3" for="rememberMe">Remember me</label>
                                 </div> -->
 
-                                <div class="text-center">
+                                <div class="text-center" style="color: #5D9C59;">
                                     <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Sign in</button>
                                 </div>
                                 <!-- <p class="mt-4 text-sm text-center">

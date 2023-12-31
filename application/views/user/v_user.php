@@ -11,8 +11,26 @@
     .featured-services .icon i {
         font-size: 48px;
         line-height: 1;
-        color: #5D9C59;
+        color: #fff;
         transition: all 0.3s ease-in-out;
+    }
+
+    .featured-services .icon-box::before {
+        /* content: ""; */
+        position: absolute;
+        background: #5D9C59;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 100%;
+        /* transition: all 0.3s; */
+        /* z-index: -1; */
+    }
+
+    .featured-services .icon-box:hover::before {
+        background: #5D9C59;
+        top: 0;
+        border-radius: 0px;
     }
 </style>
 
@@ -37,13 +55,13 @@
                 <?php $i = 1; ?>
                 <?php foreach ($galeri as $us) : ?>
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="text-align: center;">
-                            <img src="<?= base_url('assets/img/') . $us['foto']; ?>" style="width: 100px;" class="img-thumbnail">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="text-align: center; margin-bottom: 15px;">
+                            <img src="<?= base_url('assets/img/galeri/') . $us['foto']; ?>" style="width: 700px;" class="img-thumbnail">
                             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Lorem Ipsum</a></h4> -->
                             <div style=" margin-top: 20px; text-align: justify;">
                                 <p class="title"><?= $us['galeri_judul']; ?></p>
-                                <p class="description"><?= substr($us['galeri_keterangan'], 0, 50); ?>...</p>
+                                <!-- <p class="description"><?= substr($us['galeri_keterangan'], 0, 50); ?>...</p> -->
                                 <p class="description"><?= $us['galeri_upload']; ?></p>
                             </div>
                         </div>
@@ -70,13 +88,12 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                     <div style="margin-left: -50px;">
                         <h3 style="margin-top: -270px; margin-bottom: 50px;">KH. Khamdan Suwandi</h3>
-                        <p style="text-align: justify;">
+                        <p style="text-align: justify; margin-bottom: 50px;">
                             Pondok Pesantren Al Amin berdiri di atas dan untuk semua golongan didirikan oleh KH. Kham dan Suwandi dan H. Sumani pada taggal 18 Juli 2002 atas dasar keprihatinan terhadap minimnya pendidikan Islam. Mengintegrasikan kurikulum Pesantren Nasional dan Kepesantrenan dengan komunikasi harian berbahasa Arab dan Inggris, serta mengintegrasikan SQ (Spriritual Quotient), IQ (Intelectual Quotient), EQ (Emotional Quotient), berupa kemantapan dan kematangan hidup yang dibimbing oleh guru - guru yang berkompetisi dan berpengalaman, dan lulusan pondok yang sesuai dengan bidangnya.
                         </p>
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
-                        </p>
+                            <p class="fst-italic">
+                            <strong>Fasilitas : </strong>Masjid, Gedung Sekolah, Ruang Organisasi, Kantor, Aula, Asrama, Dapur Umum, Lab Komputer, Koperasi Pelajar, Ruang Uks, Lapangan Olahraga.
+                            </p>
                     </div>
                     <!-- <ul>
                         <li>
@@ -101,7 +118,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
+    <!-- <section id="skills" class="skills">
         <div class="container" data-aos="fade-up">
 
             <div class="row skills-content">
@@ -159,10 +176,11 @@
             </div>
 
         </div>
-    </section><!-- End Skills Section -->
+    </section> -->
+    <!-- End Skills Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <!-- <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
 
             <div class="row">
@@ -202,10 +220,11 @@
             </div>
 
         </div>
-    </section><!-- End Counts Section -->
+    </section> -->
+    <!-- End Counts Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <!-- <section id="clients" class="clients section-bg">
         <div class="container" data-aos="zoom-in">
 
             <div class="row">
@@ -237,7 +256,8 @@
             </div>
 
         </div>
-    </section><!-- End Clients Section -->
+    </section> -->
+    <!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">

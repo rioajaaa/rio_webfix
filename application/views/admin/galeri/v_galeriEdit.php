@@ -25,23 +25,18 @@
                     </div>
 
                     <div class="input-group input-group-outline mb-3">
-                        <input type="text" value="<?= $galeri['galeri_keterangan']; ?>" class="form-control" id="galeri_keterangan" name="galeri_keterangan" placeholder="Keterangan Galeri">
-                        <?= form_error('galeri_keterangan', '<small class="text-danger pl-3 row col-lg-12">', '</small>'); ?>
-                    </div>
-
-                    <div class="input-group input-group-outline mb-3">
                         <input type="date" value="<?= $galeri['galeri_upload']; ?>" class="form-control" id="galeri_upload" name="galeri_upload" placeholder="Waktu Upload">
                         <?= form_error('galeri_upload', '<small class="text-danger pl-3 row col-lg-12">', '</small>'); ?>
                     </div>
 
                     <div class="input-group input-group-outline mb-3">
-                        <img src="<?= base_url('assets/img/ponpes/') . $galeri['foto']; ?>" style="width: 100px; margin-bottom: 5px;" class="img-thumbnail">
+                        <img src="<?= base_url('assets/img/galeri/') . $galeri['foto']; ?>" style="width: 100px; margin-bottom: 5px;" class="img-thumbnail">
                         <input type="file" class="custom-file-input row col-lg-12" name="foto" id="foto">
                         <?= form_error('foto', '<small class="text-danger pl-3 row col-lg-12">', '</small>'); ?>
                     </div>
 
                     <a href="<?= base_url('Galeri') ?>" class="btn btn-danger">Tutup</a>
-                    <button type="submit" name="tambah" class="btn btn-info float-right">Edit Data Pengajar</button>
+                    <button type="submit" name="tambah" class="btn btn-info float-right">Edit Galeri</button>
                 </form>
             </div>
         </div>
