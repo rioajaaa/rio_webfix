@@ -10,10 +10,11 @@
 # General
 --------------------------------------------------------------*/
 color{
-  #5D9C59
-  #393646
-  #B1D7B4
-  #F9F5F6
+  #5D9C59;
+  #393646;
+  #B1D7B4;
+  #F9F5F6;
+  #C3E2C2;
 }
 
 body {
@@ -59,8 +60,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #106eea;
-  border-top-color: #e2eefd;
+  border: 6px solid #5D9C59;
+  border-top-color: #B1D7B4;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -87,7 +88,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #5D9C59;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -101,7 +102,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3284f1;
+  background: #C3E2C2;
   color: #fff;
 }
 
@@ -706,7 +707,7 @@ section {
 }
 
 .featured-services .icon-box::before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   background: #5D9C59;
   right: 0;
@@ -727,13 +728,6 @@ section {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
-  font-size: 48px;
-  line-height: 1;
-  color: #5D9C59;
-  transition: all 0.3s ease-in-out;
-}
-
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
@@ -752,7 +746,7 @@ section {
 
 .featured-services .icon-box:hover .title a,
 .featured-services .icon-box:hover .description {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .featured-services .icon-box:hover .icon i {
@@ -1523,7 +1517,7 @@ section {
   color: #106eea;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #b3d1fa;
+  border: 2px dotted #5D9C59;
 }
 
 .contact .info-box h3 {
@@ -1768,7 +1762,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #106eea;
+  color: #B1D7B4;
 }
 
 #footer .footer-top .social-links a {

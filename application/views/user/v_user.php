@@ -7,37 +7,12 @@
     .testimonials .swiper-pagination .swiper-pagination-bullet-active {
         background-color: #5D9C59;
     }
-
-    .featured-services .icon i {
-        font-size: 48px;
-        line-height: 1;
-        color: #fff;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .featured-services .icon-box::before {
-        /* content: ""; */
-        position: absolute;
-        background: #5D9C59;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        top: 100%;
-        /* transition: all 0.3s; */
-        /* z-index: -1; */
-    }
-
-    .featured-services .icon-box:hover::before {
-        background: #5D9C59;
-        top: 0;
-        border-radius: 0px;
-    }
 </style>
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h1>Selamat datang di <span style="color: #5D9C59;">Pondok Al Amin</span>.</h1>
+        <h1>Selamat datang di <span style="color: #5D9C59;">Pondok Al <span style="color: black;">-</span> Amin</span>.</h1>
         <h2>Membangun karakter bangsa yang penuh Takwa</h2>
         <!-- <div class="d-flex">
                 <a href="#about" class="btn-get-started">Get Started</a>
@@ -50,12 +25,17 @@
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
+
+            <div class="section-title" style="margin-bottom: 30px;">
+                <h3>Galeri <span style="color: #5D9C59;">Al - Amin</span></h3>
+            </div>
+
             <div class="row">
                 <?php $i = 1; ?>
                 <?php foreach ($galeri as $us) : ?>
                     <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="text-align: center; margin-bottom: 15px;">
+                        <div class="icon-box" style="text-align: center; margin-bottom: 15px;">
                             <img src="<?= base_url('assets/img/galeri/') . $us['foto']; ?>" style="width: 700px;" class="img-thumbnail">
                             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Lorem Ipsum</a></h4> -->
@@ -78,7 +58,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title" style="margin-bottom: 30px;">
-                <h3>Tentang <span style="color: #5D9C59;">Al Amin</span></h3>
+                <h3>Tentang <span style="color: #fff;">Al - Amin</span></h3>
             </div>
 
             <div class="row">
@@ -91,9 +71,9 @@
                         <p style="text-align: justify; margin-bottom: 50px;">
                             Pondok Pesantren Al Amin berdiri di atas dan untuk semua golongan didirikan oleh KH. Kham dan Suwandi dan H. Sumani pada taggal 18 Juli 2002 atas dasar keprihatinan terhadap minimnya pendidikan Islam. Mengintegrasikan kurikulum Pesantren Nasional dan Kepesantrenan dengan komunikasi harian berbahasa Arab dan Inggris, serta mengintegrasikan SQ (Spriritual Quotient), IQ (Intelectual Quotient), EQ (Emotional Quotient), berupa kemantapan dan kematangan hidup yang dibimbing oleh guru - guru yang berkompetisi dan berpengalaman, dan lulusan pondok yang sesuai dengan bidangnya.
                         </p>
-                            <p class="fst-italic">
+                        <p class="fst-italic">
                             <strong>Fasilitas : </strong>Masjid, Gedung Sekolah, Ruang Organisasi, Kantor, Aula, Asrama, Dapur Umum, Lab Komputer, Koperasi Pelajar, Ruang Uks, Lapangan Olahraga.
-                            </p>
+                        </p>
                     </div>
                     <!-- <ul>
                         <li>
@@ -493,7 +473,8 @@
             </div>
 
         </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -754,42 +735,41 @@
             <div class="section-title">
                 <!-- <h2>Contact</h2> -->
                 <h3>Kontak <span style="color: #5D9C59;">Kami</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-6">
                     <div class="info-box mb-4">
-                        <i class="bx bx-map"></i>
-                        <h3>Our Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+                        <i class="bx bx-map" style="color: #5D9C59;"></i>
+                        <h3>Alamat Pondok</h3>
+                        <p>Blok E, Rawang Kao, Kec. Lubuk Dalam, Kabupaten Siak, Riau 28671</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="info-box  mb-4">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email Us</h3>
-                        <p>contact@example.com</p>
+                        <i class="bx bx-envelope" style="color: #5D9C59;"></i>
+                        <h3>Email Pondok</h3>
+                        <p>ppalaminsiak@gmail.com</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="info-box  mb-4">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Call Us</h3>
-                        <p>+1 5589 55488 55</p>
+                        <i class="bx bx-phone-call" style="color: #5D9C59;"></i>
+                        <h3>Telepon Pondok</h3>
+                        <p>+62 813 3423 7539</p>
                     </div>
                 </div>
 
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-6 ">
+                <div class="col-lg-6" style="width: 100%;">
                     <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.582776136932!2d101.81080897472349!3d0.6225860993713368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d433c76236a087%3A0x68c47c28e8c0625c!2sPondok%20Pesantren%20Al%20Amin!5e0!3m2!1sen!2sid!4v1703611466952!5m2!1sen!2sid" style="border:0; width: 100%; height: 384px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col form-group">
@@ -812,11 +792,13 @@
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
-                </div>
+                </div> -->
 
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
-</main><!-- End #main -->
+</main>
+<!-- End #main -->

@@ -62,10 +62,6 @@
     .bg-gradient-primary {
         background-image: linear-gradient(195deg, #B1D7B4 0%, #5D9C59 100%);
     }
-
-    .bg-gradient-secondary {
-        background-image: linear-gradient(195deg, #747b8a 0%, #5D9C59 100%);
-    }
 </style>
 
 <main class="main-content  mt-0">
@@ -77,7 +73,7 @@
                     <div class="card z-index-0 fadeIn3 fadeInBottom">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
-                                <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Sign in</h4>
+                                <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Al - Amin</h4>
                                 <div class="row mt-3">
                                     <div class="col-2 text-center ms-auto">
                                         <a class="btn btn-link px-3" href="javascript:;">
@@ -86,7 +82,7 @@
                                     </div>
                                     <div class="col-2 text-center px-1">
                                         <a class="btn btn-link px-3" href="javascript:;">
-                                            <i class="fa fa-github text-white text-lg"></i>
+                                            <i class="fa fa-instagram text-white text-lg"></i>
                                         </a>
                                     </div>
                                     <div class="col-2 text-center me-auto">
@@ -98,9 +94,8 @@
                             </div>
                         </div>
 
-                        <?= $this->session->flashdata('message'); ?>
-
                         <div class="card-body">
+                            <?= $this->session->flashdata('message'); ?>
                             <form class="user" method="POST" action="<?= base_url('Auth/cek_login'); ?>">
                                 <div class="input-group input-group-outline my-3">
                                     <!-- <label class="form-label">Email</label> -->
