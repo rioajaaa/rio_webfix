@@ -7,6 +7,20 @@
     .testimonials .swiper-pagination .swiper-pagination-bullet-active {
         background-color: #5D9C59;
     }
+
+    .testimonials {
+        padding: 80px 0;
+        background: url("assets/img/ponpes/latar2.jpg") no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+
+    #footer .footer-top .social-links a:hover {
+        background: #C3E2C2;
+        color: #fff;
+        text-decoration: none;
+    }
 </style>
 
 <!-- ======= Hero Section ======= -->
@@ -269,94 +283,6 @@
         </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item" style="margin-top: 80px;">
-                            <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
-                            <h3>VISI</h3>
-                            <!-- <h4>Ceo &amp; Founder</h4> -->
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Sebagai lembaga pendidikan pencetak kader-kader pemimpin umat, menjadi tempat ibadah talab al-’ilmi dan menjadi sumber pengetahuan Islam, bahasa al-Qur’an, dan ilmu pengetahuan umum, dengan tetap berjiwa pesantren.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item" style="margin-top: 80px;">
-                            <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
-                            <h3>MISI</h3>
-                            <!-- <h4>Designer</h4> -->
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Membentuk generasi yang unggul menuju terbentuknya khaira ummah.
-                                Mendidik dan mengembangkan generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengeta-huan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
-                                Mengajarkan ilmu pengetahuan agama dan umum secara seimbang menuju terbentuknya ulama yang intelek.
-                                Mewujudkan warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div><!-- End testimonial item -->
-
-                    <div class="swiper-slide">
-                        <div class="testimonial-item" style="margin-top: 80px;">
-                            <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
-                            <h3>TUJUAN</h3>
-                            <!-- <h4>Store Owner</h4> -->
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Terwujudnya generasi yang unggul menuju terbentuknya khaira ummah.
-                                Terbentuknya generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengetahuan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
-                                Lahirnya ulama intelek yang memiliki keseimbangan dzikir dan pikir.
-                                Terwujudnya warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div> -->
-                    <!-- End testimonial item -->
-
-                    <!-- <div class="swiper-slide">
-                        <div class="testimonial-item">
-                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
-                            <h4>Entrepreneur</h4>
-                            <p>
-                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                            </p>
-                        </div>
-                    </div> -->
-                    <!-- End testimonial item -->
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-    </section><!-- End Testimonials Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
@@ -384,7 +310,8 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <img src="<?= base_url('assets/img/news/') . $us['foto']; ?>" style="width: 500px;" class="img-thumbnail">
                         <div class="portfolio-info">
-                            <h4>Berita <td><?= $i; ?></td></h4>
+                            <h4>Berita <td><?= $i; ?></td>
+                            </h4>
                             <p>
                                 <td><?= $us['berita_judul']; ?></td>
                             </p>
@@ -486,94 +413,120 @@
     </section>
     <!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-        <div class="container" data-aos="fade-up">
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="zoom-in">
 
-            <div class="section-title">
-                <h2>Team</h2>
-                <h3>Our Hardworking <span>Team</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-            </div>
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
 
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item" style="margin-top: 80px;">
+                            <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+                            <h3>VISI</h3>
+                            <!-- <h4>Ceo &amp; Founder</h4> -->
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Sebagai lembaga pendidikan pencetak kader-kader pemimpin umat, menjadi tempat ibadah talab al-’ilmi dan menjadi sumber pengetahuan Islam, bahasa al-Qur’an, dan ilmu pengetahuan umum, dengan tetap berjiwa pesantren.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
                         </div>
-                        <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item" style="margin-top: 80px;">
+                            <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                            <h3>MISI</h3>
+                            <!-- <h4>Designer</h4> -->
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Membentuk generasi yang unggul menuju terbentuknya khaira ummah.
+                                Mendidik dan mengembangkan generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengeta-huan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
+                                Mengajarkan ilmu pengetahuan agama dan umum secara seimbang menuju terbentuknya ulama yang intelek.
+                                Mewujudkan warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item" style="margin-top: 80px;">
+                            <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt=""> -->
+                            <h3>TUJUAN</h3>
+                            <!-- <h4>Store Owner</h4> -->
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Terwujudnya generasi yang unggul menuju terbentuknya khaira ummah.
+                                Terbentuknya generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengetahuan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
+                                Lahirnya ulama intelek yang memiliki keseimbangan dzikir dan pikir.
+                                Terwujudnya warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
                         </div>
                     </div>
-                </div>
+                    <!-- End testimonial item -->
 
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?= base_url('assets/') ?>img/team/team-2.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <h3>Matt Brandon</h3>
+                            <h4>Freelancer</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
                         </div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                        </div>
-                    </div>
-                </div>
+                    </div> -->
+                    <!-- End testimonial item -->
 
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?= base_url('assets/') ?>img/team/team-3.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                            <h3>John Larson</h3>
+                            <h4>Entrepreneur</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
                         </div>
-                        <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                        </div>
-                    </div>
-                </div>
+                    </div> -->
+                    <!-- End testimonial item -->
 
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="<?= base_url('assets/') ?>img/team/team-4.jpg" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                        </div>
-                    </div>
                 </div>
-
+                <div class="swiper-pagination"></div>
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h3 style="margin-bottom: 30px;">Visi Misi <span style="color: #5D9C59;">Al - Amin</span></h3>
+                <h5>Visi</h5>
+                <p style="text-align: justify; width: 700px;">Sebagai lembaga pendidikan pencetak kader-kader pemimpin umat, menjadi tempat ibadah talab al-’ilmi dan menjadi sumber pengetahuan Islam, bahasa al-Qur’an, dan ilmu pengetahuan umum, dengan tetap berjiwa pesantren.</p>
+                <br>
+                <h5>Misi</h5>
+                <p style="text-align: justify; width: 700px;">Membentuk generasi yang unggul menuju terbentuknya khaira ummah.
+                    Mendidik dan mengembangkan generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengeta-huan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
+                    Mengajarkan ilmu pengetahuan agama dan umum secara seimbang menuju terbentuknya ulama yang intelek.
+                    Mewujudkan warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.</p>
+                <br>
+                <h5>Tujuan</h5>
+                <p style="text-align: justify; width: 700px;">Terwujudnya generasi yang unggul menuju terbentuknya khaira ummah.
+                    Terbentuknya generasi mukmin-muslim yang berbudi tinggi, berbadan sehat, berpengetahuan luas, dan berpikiran bebas, serta berkhidmat kepada masyarakat.
+                    Lahirnya ulama intelek yang memiliki keseimbangan dzikir dan pikir.
+                    Terwujudnya warga negara yang berkepribadian Indonesia yang beriman dan bertakwa kepada Allah SWT.</p>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
     <!-- <section id="pricing" class="pricing">

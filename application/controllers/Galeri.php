@@ -13,7 +13,7 @@ class Galeri extends CI_Controller
 
   public function index()
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Galeri Al - Amin";
     $data['galeri'] = $this->Galeri_model->get(); 
     $this->load->view("admin/v_adminHeader", $data);
     $this->load->view("admin/galeri/v_galeri", $data);
@@ -22,7 +22,7 @@ class Galeri extends CI_Controller
 
   public function tambah()
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Galeri Al - Amin";
     // $data['user'] = $this->db->get_where('user',['email' => $this->session->userdata('email')])->row_array();
     $data['galeri'] = $this->Galeri_model->get();
     $this->form_validation->set_rules('galeri_judul','Judul Galeri','required',[
@@ -56,7 +56,7 @@ class Galeri extends CI_Controller
 
   public function edit($id)
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Galeri Al - Amin";
     $data['galeri'] = $this->Galeri_model->getById($id);
     // $data['user'] = $this->db->get_where('user',['email' => $this->session->userdata('email')])->row_array();
     $this->form_validation->set_rules('galeri_judul','Judul Galeri','required',[

@@ -13,7 +13,7 @@ class Berita extends CI_Controller
 
   public function index()
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Berita Al - Amin";
     $data['berita'] = $this->Berita_model->get(); 
     $this->load->view("admin/v_adminHeader", $data);
     $this->load->view("admin/berita/v_berita", $data);
@@ -22,7 +22,7 @@ class Berita extends CI_Controller
 
   public function tambah()
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Berita Al - Amin";
     // $data['user'] = $this->db->get_where('user',['email' => $this->session->userdata('email')])->row_array();
     $data['berita'] = $this->Berita_model->get();
     $this->form_validation->set_rules('berita_judul','Judul Berita','required',[
@@ -60,7 +60,7 @@ class Berita extends CI_Controller
 
   public function edit($id)
   {
-    $data['judul'] = "Halaman";
+    $data['judul'] = "Halaman Berita Al - Amin";
     $data['berita'] = $this->Berita_model->getById($id);
     // $data['user'] = $this->db->get_where('user',['email' => $this->session->userdata('email')])->row_array();
     $this->form_validation->set_rules('berita_judul','Judul Berita','required',[

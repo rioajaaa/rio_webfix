@@ -47,7 +47,7 @@ class Auth extends CI_Controller
 						// tambahkan data sesuai kebutuhan
 					];
 					$this->session->set_userdata($data);
-					redirect('admin'); // Redirect ke halaman dashboard atau halaman setelah login berhasil
+					redirect('Galeri'); // Redirect ke halaman dashboard atau halaman setelah login berhasil
 				} else {
 					// Password tidak cocok
 					$this->session->set_flashdata('message', 'Password salah');
