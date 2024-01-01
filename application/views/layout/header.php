@@ -75,7 +75,7 @@
                         <ul>
                             <li><a class="nav-link scrollto" href="#featured-services">Galeri</a></li>
                             <li><a class="nav-link scrollto" href="#portfolio">Berita</a></li>
-                            <li><a class="nav-link scrollto" href="#team">Visi & Misi</a></li>
+                            <li><a class="nav-link scrollto" href="#testimonials">Visi & Misi</a></li>
                         </ul>
                     </li>
                 </ul>
