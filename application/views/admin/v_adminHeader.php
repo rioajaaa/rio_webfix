@@ -53,13 +53,13 @@
         <div class="collapse navbar-collapse w-auto" id="sidenav-collapse-main">
             <ul class="navbar-nav">
 
-            <li class="nav-item mt-3">
+                <li class="nav-item mt-3">
                     <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">
                         Feature
                     </h6>
                 </li>
 
-            <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link collapsed" href="<?= base_url('Galeri') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">image</i>
@@ -68,7 +68,7 @@
                         <span class="nav-link-text ms-1">Galeri</span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="<?= base_url('Guru') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -78,9 +78,9 @@
                         <span class="nav-link-text ms-1">Guru</span>
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="./tables.html">
+                    <a class="nav-link collapsed" href="<?= base_url('Berita') ?>">
                         <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="material-icons opacity-10">newspaper</i>
                         </div>
