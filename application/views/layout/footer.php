@@ -43,12 +43,12 @@
                    <div class="col-lg-3 col-md-6 footer-links">
                        <h4>Lainnya</h4>
                        <ul>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Guru</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Galeri</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Berita</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#">Visi & Misi</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#services">Guru</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#featured-services">Galeri</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Berita</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Visi & Misi</a></li>
                        </ul>
                    </div>
 
