@@ -72,7 +72,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title" style="margin-bottom: 30px;">
-                <h3>Tentang <span style="color: #fff;">Al - Amin</span></h3>
+                <h3>Sejarah <span style="color: #fff;">Al - Amin</span></h3>
             </div>
 
             <div class="row">
@@ -289,7 +289,7 @@
 
             <div class="section-title">
                 <!-- <h2>Portfolio</h2> -->
-                <h3>Berita <span style="color: #5D9C59;">Al - Amin</span></h3>
+                <h3>Prestasi <span style="color: #5D9C59;">Al - Amin</span></h3>
                 <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
             </div>
 
@@ -310,7 +310,7 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <img src="<?= base_url('assets/img/news/') . $us['foto']; ?>" style="width: 500px;" class="img-thumbnail">
                         <div class="portfolio-info">
-                            <h4>Berita <td><?= $i; ?></td>
+                            <h4>Prestasi <td><?= $i; ?></td>
                             </h4>
                             <p>
                                 <td><?= $us['berita_judul']; ?></td>

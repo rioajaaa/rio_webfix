@@ -66,16 +66,17 @@
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li class="dropdown"><a href="#"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                            <li><a class="nav-link scrollto" href="#services">Guru</a></li>
+                            <li><a class="nav-link scrollto" href="#about">Sejarah</a></li>
+                            <li><a class="nav-link scrollto" href="#testimonials">Visi & Misi</a></li>
                             <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a class="nav-link scrollto" href="#featured-services">Galeri</a></li>
-                            <li><a class="nav-link scrollto" href="#portfolio">Berita</a></li>
-                            <li><a class="nav-link scrollto" href="#testimonials">Visi & Misi</a></li>
+                            <li><a class="nav-link scrollto" href="#services">Guru</a></li>
+                            <li><a class="nav-link scrollto" href="#portfolio">Prestasi</a></li>
+                            
                         </ul>
                     </li>
                 </ul>

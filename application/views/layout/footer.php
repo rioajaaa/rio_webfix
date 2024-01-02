@@ -47,7 +47,7 @@
                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Guru</a></li>
                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
                            <li><i class="bx bx-chevron-right"></i> <a href="#featured-services">Galeri</a></li>
-                           <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Berita</a></li>
+                           <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Prestasi</a></li>
                            <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Visi & Misi</a></li>
                        </ul>
                    </div>

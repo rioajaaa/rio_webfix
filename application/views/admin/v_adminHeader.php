@@ -85,7 +85,7 @@
                             <i class="material-icons opacity-10">newspaper</i>
                         </div>
 
-                        <span class="nav-link-text ms-1">Berita</span>
+                        <span class="nav-link-text ms-1">Prestasi</span>
                     </a>
                 </li>
 
