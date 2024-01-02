@@ -45,7 +45,7 @@
                 <i class="bi bi-phone d-flex align-items-center ms-4"><span>+62 813 3423 7539</span></i>
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
-                <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+                <a href="http://localhost/rio_webfix/user" class="google"><i class="bi bi-google"></i></a>
                 <a href="https://www.facebook.com/ppalaminrawangkao/" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/pondok.alamin/" class="instagram"><i class="bi bi-instagram"></i></a>
                 <!-- <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> -->
