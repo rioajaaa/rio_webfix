@@ -23,7 +23,7 @@
                             <td><?= $us['judul_sejarah']; ?></td>
                             <td><?= substr($us['isi_sejarah'], 0, 50); ?></td>
                             <td><?= substr($us['isi_sejarah'], 0, 50); ?></td>
-                            <td><img src="<?= base_url('assets/img/ponpes/') . $us['foto']; ?>" style="max-width: 650px; max-height: 650px;" class="img-thumbnail"></td>
+                            <td><img src="<?= base_url('assets/img/ponpes/') . $us['foto']; ?>" style="max-width: 100px;" class="img-thumbnail"></td>
                             <td>
                                 <a href="<?= base_url('Sejarah/hapus/') . $us['id']; ?>" class="btn btn-danger px-3">Hapus</a>
                                 <a href="<?= base_url('Sejarah/edit/') . $us['id']; ?>" class="btn btn-warning px-3">Edit</a>
