@@ -75,21 +75,19 @@
                 <h3>Sejarah <span style="color: #fff;">Al - Amin</span></h3>
             </div>
 
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <img src="assets/img/ponpes/ph.jpg" class="img-fluid" style="max-width: 650px; max-height: 650px;" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <div style="margin-left: -50px;">
-                        <h3 style="margin-top: -270px; margin-bottom: 50px;">KH. Khamdan Suwandi</h3>
-                        <p style="text-align: justify; margin-bottom: 50px;">
-                            Pondok Pesantren Al Amin berdiri di atas dan untuk semua golongan didirikan oleh KH. Kham dan Suwandi dan H. Sumani pada taggal 18 Juli 2002 atas dasar keprihatinan terhadap minimnya pendidikan Islam. Mengintegrasikan kurikulum Pesantren Nasional dan Kepesantrenan dengan komunikasi harian berbahasa Arab dan Inggris, serta mengintegrasikan SQ (Spriritual Quotient), IQ (Intelectual Quotient), EQ (Emotional Quotient), berupa kemantapan dan kematangan hidup yang dibimbing oleh guru - guru yang berkompetisi dan berpengalaman, dan lulusan pondok yang sesuai dengan bidangnya.
-                        </p>
-                        <p class="fst-italic">
-                            <strong>Fasilitas : </strong>Masjid, Gedung Sekolah, Ruang Organisasi, Kantor, Aula, Asrama, Dapur Umum, Lab Komputer, Koperasi Pelajar, Ruang Uks, Lapangan Olahraga.
-                        </p>
+            <?php $i = 1; ?>
+            <?php foreach ($sejarah as $us) : ?>
+                <div class="row">
+                    <div class="col-lg-6">
+                    <img src="<?= base_url('assets/img/ponpes/') . $us['foto']; ?>" style="max-width: 650px; max-height: 650px;" class="img-thumbnail">
                     </div>
-                    <!-- <ul>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <div style="margin-left: -50px;">
+                            <h3 style="margin-top: -270px; margin-bottom: 50px;"><?= $us['judul_sejarah']; ?></h3>
+                            <p style="text-align: justify; margin-bottom: 50px;"><?= $us['isi_sejarah']; ?></p>
+                            <p class="fst-italic"><?= $us['penutup_sejarah']; ?></p>
+                        </div>
+                        <!-- <ul>
                         <li>
                             <i class="bx bx-store-alt"></i>
                             <div>
@@ -105,8 +103,10 @@
                             </div>
                         </li>
                     </ul> -->
+                    </div>
                 </div>
-            </div>
+                <?php $i++; ?>
+            <?php endforeach; ?>
 
         </div>
     </section><!-- End About Section -->

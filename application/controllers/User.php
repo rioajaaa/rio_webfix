@@ -9,6 +9,7 @@ class User extends CI_Controller
     parent::__construct();
     $this->load->model('Guru_model');
     $this->load->model('Galeri_model');
+    $this->load->model('Sejarah_model');
     $this->load->model('Berita_model');
   }
 
@@ -16,6 +17,7 @@ class User extends CI_Controller
   {
     $data['judul'] = "";
     $data['guru'] = $this->Guru_model->get(); 
+    $data['sejarah'] = $this->Sejarah_model->get(); 
     $data['galeri'] = $this->Galeri_model->get(); 
     $data['berita'] = $this->Berita_model->get(); 
     $this->load->view("layout/header");
